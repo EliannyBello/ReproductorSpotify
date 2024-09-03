@@ -1,12 +1,67 @@
+body{
+    background-color: #444;
+    justify-content: left;
+}
+.container {
+    background-color: #2c2c2c; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    justify-content: left;
+}
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-*/
+li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+    text-align: left;
+
+}
+
+
+li:hover {
+    background-color: #444; 
+}
+
+
+.navigation {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #3c3c3c; 
+    border-radius: 5px;
+}
+
+.seeker {
+    height: 5px;
+    background-color: #76c7c0; 
+    border-radius: 5px;
+}
+
+.mx-2 {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mx-2 span {
+    color: white;
+}
+
+.mx-2:hover {
+    background-color: #444; 
+    border-radius: 5px;
+}
+
+
+.fa-shuffle, .fa-backward-step, .fa-play, .fa-pause, .fa-forward-step, .fa-rotate {
+    font-size: 20px;
+}
